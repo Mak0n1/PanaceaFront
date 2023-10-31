@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "balance": 0.00,
+        "server": "All",
+        "item": "Donation to team project",
+        "date": "06.08.2023"
+    },
+    {
+        "id": 2,
+        "balance": 1.00,
+        "server": "All",
+        "item": "Donation to team project",
+        "date": "01.08.2022"
+    },
+    {
+        "id": 3,
+        "balance": 5.60,
+        "server": "All",
+        "item": "Donation to team project",
+        "date": "04.08.2022"
+    }
+]

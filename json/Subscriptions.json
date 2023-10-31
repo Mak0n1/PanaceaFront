@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Queue",
+        "server": "cherno1",
+        "date": "01.01.1970",
+        "time": "03:00:00",
+        "IsPending": true,
+        "Extension": [
+            "119руб / +3 дня", 
+            "119руб / +3 дня",
+            "119руб / +3 дня"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Queue",
+        "server": "cherno1",
+        "date": "01.01.1970",
+        "time": "03:00:00",
+        "IsPending": true,
+        "Extension": [
+            "129руб / +3 дня", 
+            "119руб / +3 дня",
+            "119руб / +3 дня"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Queue",
+        "server": "cherno1",
+        "date": "01.01.1970",
+        "time": "03:00:00",
+        "IsPending": true,
+        "Extension": [
+            "139руб / +3 дня", 
+            "119руб / +3 дня",
+            "119руб / +3 дня"
+        ]
+    }
+]

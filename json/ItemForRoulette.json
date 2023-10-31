@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "img": "floatie.png",
+        "title": "Floatie Flamingo",
+        "rare": "1",
+        "InRoulette": true
+    },
+    {
+        "id": 2,
+        "img": "44.png",
+        "title": "NBC Set",
+        "rare": "1",
+        "InRoulette": false
+    },
+    {
+        "id": 3,
+        "img": "10.png",
+        "title": "Codelock",
+        "rare": "1",
+        "InRoulette": true
+    },
+    {
+        "id": 4,
+        "img": "33.png",
+        "title": "Lockpick (5x)",
+        "rare": "2",
+        "InRoulette": true
+    },
+    {
+        "id": 5,
+        "img": "7.png",
+        "title": "Bricks (5x)",
+        "rare": "2",
+        "InRoulette": true
+    },
+    {
+        "id": 6,
+        "img": "MBG.png",
+        "title": "Mercedes Benz G63",
+        "rare": "3",
+        "InRoulette": true
+    },
+    {
+        "id": 7,
+        "img": "r8.png",
+        "title": "Audi R8",
+        "rare": "3",
+        "InRoulette": true
+    },
+    {
+        "id": 8,
+        "img": "money_big.png",
+        "title": "Money (350к-1кк)",
+        "rare": "3",
+        "InRoulette": true
+    },
+    {
+        "id": 9,
+        "img": "c4.png",
+        "title": "C4 Heavy",
+        "rare": "3",
+        "InRoulette": true
+    },
+    {
+        "id": 10,
+        "img": "revolver.png",
+        "title": "BMG REVOLVER",
+        "rare": "4",
+        "InRoulette": false
+    },
+    {
+        "id": 11,
+        "img": "gaz.png",
+        "title": "GAZ71 (rust)",
+        "rare": "4",
+        "InRoulette": true
+    }
+]

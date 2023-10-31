@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "img": "gaz.png",
+        "rare": "4",
+        "title": "GAZ71 (rust)",
+        "chance": "2.7%",
+        "light": true
+    },
+    {
+        "id": 2,
+        "img": "gaz.png",
+        "rare": "4",
+        "title": "GAZ71 (rust)",
+        "chance": "2.745%",
+        "light": true
+    },
+    {
+        "id": 3,
+        "img": "gaz.png",
+        "rare": "4",
+        "title": "GAZ71 (rust)",
+        "chance": "7.7%",
+        "light": false
+    },
+    {
+        "id": 4,
+        "img": "gaz.png",
+        "rare": "3",
+        "title": "GAZ71 (rust)",
+        "chance": "10.7%",
+        "light": false
+    },
+    {
+        "id": 5,
+        "img": "gaz.png",
+        "rare": "1",
+        "title": "GAZ71 (rust)",
+        "chance": "2.7%",
+        "light": false
+    }
+]

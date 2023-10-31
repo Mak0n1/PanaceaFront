@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Online for Today",
+        "img": "s-1.png",
+        "state": "0 min."
+    },
+    {
+        "id": 2,
+        "title": "Overall Time Spent On Server",
+        "img": "s-2.png",
+        "state": "0 min."
+    },
+    {
+        "id": 3,
+        "title": "Money in ATM",
+        "img": "s-3.png",
+        "state": "100000"
+    },
+    {
+        "id": 4,
+        "title": "Max Limit in ATM",
+        "img": "s-4.png",
+        "state": "1000000"
+    },
+    {
+        "id": 5,
+        "title": "Kills",
+        "img": "s-5.png",
+        "state": "0"
+    },
+    {
+        "id": 6,
+        "title": "Deaths",
+        "img": "s-6.png",
+        "state": "0"
+    },
+    {
+        "id": 7,
+        "title": "Total Hits",
+        "img": "s-7.png",
+        "state": "0"
+    },
+    {
+        "id": 8,
+        "title": "The Longest Kill",
+        "img": "s-8.png",
+        "state": "0"
+    },
+    {
+        "id": 9,
+        "title": "The farthest hit",
+        "img": "s-9.png",
+        "state": "0"
+    },
+    {
+        "id": 10,
+        "title": "K/D",
+        "img": "s-10.png",
+        "state": "0"
+    }
+]
