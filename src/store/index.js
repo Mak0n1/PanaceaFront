@@ -133,7 +133,7 @@ export default createStore({
             headers: {
               'X-Token': jwtToken,
               'Content-Type': 'application/json',
-              'Access-Control-Allow-Origin': '*',
+              // 'Access-Control-Allow-Origin': '*',
             }
           });
           console.log(response.data);
