@@ -132,7 +132,8 @@ export default createStore({
           const response = await axios.post('https://api.panaceadayz.us/v1/Player.GetAuth', {}, {
             headers: {
               'X-Token': jwtToken,
-              'Content-Type': 'application/json'
+              'Content-Type': 'application/json',
+              'Access-Control-Allow-Origin': '*',
             }
           });
           console.log(response.data);
