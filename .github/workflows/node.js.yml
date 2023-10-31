@@ -1,4 +1,4 @@
-name: Build and Deploy Vue App
+name: Build and Deploy VueJS Panacea
 
 on:
   push:
