@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14  # Выберите версию Node.js, которая подходит для вашего проекта
+          node-version: 16  # Выберите версию Node.js, которая подходит для вашего проекта
 
       - name: Install Dependencies
         run: npm install
