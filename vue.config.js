@@ -4,7 +4,7 @@ module.exports = defineConfig({
       ? '/PanaceaFront/'
       : '/',
   devServer: {
-    proxy: 'http://localhost:8080',
+    proxy: 'https://api.panaceadayz.us/v1',
     historyApiFallback: true
   },
   css: {
