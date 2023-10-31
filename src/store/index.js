@@ -129,18 +129,18 @@ export default createStore({
       if (jwtToken || this.JWT === "") {
         try {
 
-          const response = await axios.post('https://api.panaceadayz.us/v1/Player.GetAuth', {}, {
+          const response = await axios.post('https://raw.githubusercontent.com/sedm1/Panacea/main/json/user.json', {}, {
             headers: {
               'X-Token': jwtToken,
               'Content-Type': 'application/json'
             }
           });
           console.log(response.data);
-          if (response.data.user.auth === true) {
+          // if (response.data.user.auth === true) {
             commit('SET_JWT', jwtToken);
             commit('SET_NEW_USER_DATE', response.data.user);
             window.location = '/'
-          }
+          // }
         } catch (error) {
           console.error('Ошибка при проверке JWT токена:', error);
         }
