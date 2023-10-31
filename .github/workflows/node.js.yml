@@ -3,7 +3,7 @@ name: Build and Deploy Vue App
 on:
   push:
     branches:
-      - main  # Замените на имя вашей основной ветки, если оно отличается
+      - master  # Замените на имя вашей основной ветки, если оно отличается
 
 jobs:
   build:
