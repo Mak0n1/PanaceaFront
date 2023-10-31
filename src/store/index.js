@@ -130,10 +130,10 @@ export default createStore({
         try {
 
           const response = await axios.post('https://raw.githubusercontent.com/sedm1/Panacea/main/json/user.json', {}, {
-            headers: {
-              'X-Token': jwtToken,
-              'Content-Type': 'application/json'
-            }
+            // headers: {
+            //   'X-Token': jwtToken,
+            //   'Content-Type': 'application/json'
+            // }
           });
           console.log(response.data);
           // if (response.data.user.auth === true) {
