@@ -34,6 +34,9 @@ jobs:
           mv public public-vue
           mv dist public
 
+      - name: Force Push
+        run: git push -f origin gh-pages
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
