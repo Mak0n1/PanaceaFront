@@ -18,7 +18,7 @@
       </div>
     </div>
   </template>
-  
+
   <script>
   export default {
     props: {
@@ -52,61 +52,62 @@
     },
   };
   </script>
-  
+
 <style scoped lang="sass">
-  .custom-select 
-    position: relative 
-    width: 209px 
-    text-align: left 
-    outline: none 
-    height: 47px 
-    line-height: 47px 
+@import "@/assets/sass/_colors.sass"
+.custom-select
+    position: relative
+    width: 209px
+    text-align: left
+    outline: none
+    height: 47px
+    line-height: 47px
     border-bottom: 1px solid transparent
-    .selected 
+    .selected
         background: linear-gradient(90deg, rgba(211,16,39,0.2) 0%, rgba(234,56,77,0.2) 100%)
-        border-radius: 6px 
-        padding-left: 1em 
-        cursor: pointer 
-        user-select: none 
+        border-radius: 6px
+        padding-left: 1em
+        cursor: pointer
+        user-select: none
         font-size: 12px
         font-weight: 400
-        &.open 
-            border-radius: 6px 6px 0px 0px 
+        &.open
+            border-radius: 6px 6px 0px 0px
             border: 1px solid $red
             border-bottom: 1px solid transparent
-        &:after 
-            position: absolute 
-            content: "" 
-            top: 22px 
-            right: 1em 
-            width: 0 
-            height: 0 
-            border: 5px solid transparent 
-            border-color: #fff transparent transparent transparent 
-    .items 
-        color: #fff 
-        border-radius: 0px 0px 6px 6px 
-        overflow: hidden 
-        position: absolute 
+        &:after
+            position: absolute
+            content: ""
+            top: 22px
+            right: 1em
+            width: 0
+            height: 0
+            border: 5px solid transparent
+            border-color: #fff transparent transparent transparent
+    .items
+        color: #fff
+        border-radius: 0px 0px 6px 6px
+        overflow: hidden
+        position: absolute
         background: #380f17
-        left: 0 
-        right: 0 
-        z-index: 1 
+        left: 0
+        right: 0
+        z-index: 1
         border: 1px solid $red
         border-top: 1px solid transparent
         height: 96px
         transition: .5s
-        div 
-            color: #fff 
-            padding-left: 1em 
-            cursor: pointer 
-            user-select: none 
+        div
+            color: #fff
+            padding-left: 1em
+            cursor: pointer
+            user-select: none
             font-size: 12px !important
             font-weight: 400 !important
             text-align: left
-            &:hover 
+            &:hover
                 background-color: #604246
-.selectHide 
+.selectHide
   height: 0px !important
   border: 0px solid $red !important
 @media screen and (max-width: $smalltabletContainer)

@@ -10,7 +10,7 @@ module.exports = defineConfig({
       sass: {
         additionalData: `
           @import "@/assets/sass/_vars.sass"
-
+          @import "@/assets/sass/_colors.sass"
         `
       }
     }
