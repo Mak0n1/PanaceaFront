@@ -1,44 +1,22 @@
-name: Build and Deploy Vue.js
+name: DEPLOY TO STAGING
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches:
+      - master
 
 jobs:
-  build:
-    name: Build and Deploy
+  firebase-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x]
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+      - name: Installing project dependencies
+      - run: npm install
+      - name: Building the project
+      - run: npm run build
+      - uses: w9jds/firebase-action@master
         with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Install dependencies and build
-        run: |
-          npm ci
-          npm run build
-
-      - name: Rename directories
-        run: |
-          mv public public-vue
-          mv dist public
-
-      - name: Force Push
-        run: git push -f origin gh-pages
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FirebaseDeploy }}
